@@ -1,0 +1,8 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+    @mixin media-sm {
+        @media screen and (max-width: 600px) {
+          @content;
+        }}
