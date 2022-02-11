@@ -20,8 +20,10 @@ h = (h<10) ? "0" + h:h;
 m = (m<10) ? "0" + m:m;
 s = (s<10) ? "0" + s:s;
 
-document.getElementById("dclock").innerHTML= h+":"+m+":"+s+" "+session;
-
+document.getElementById("hour").innerHTML= h;
+document.getElementById("minute").innerHTML= m;
+document.getElementById("second").innerHTML= s;
+document.getElementById("session").innerHTML= session;
 setTimeout(currentTime, 1000)
 }
 
